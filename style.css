@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #d9cece;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+p {
+  margin-top: 20px;
+}
+
+#playerScore,
+#computerScore,
+#drawScore {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    margin-top: 20px;
+  }
+}
